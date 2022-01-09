@@ -11,20 +11,24 @@
     <p>Tente Abrir esse site em vários dispositivos diferents ou simplismente aumente e diminua o tamanho do seu navegador.</p>
 
     <picture>
-        <source media="(max-width: 750px )" srcset="foto-p.png" 
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" 
         type="image/png">
         <source media="(max-width: 1050px)" 
-        srcset="foto-m.png" type="image/png">
+        srcset="imagens/foto-m.png" type="image/png">
 
-        <img src="foto-g.png" alt="imagem flexível">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
 
 
     </picture>
 
     <h1>Reproduzindo áudio</h1>
     <p>Vamos aprender a reproduzir áudio em HTML 5</p>
-    <audio src=""></audio>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Floating Home - Brian Bolger.mp3" type="audio/mpeg">
+        <source src="midia/Floating Home - Brian Bolger.ogg" type="audio/ogg">
+        <source src="midia/Floating Home - Brian Bolger.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não é possível reproduzir o áudio</p>
+    </audio>
 
-    
 </body>
 </html>
