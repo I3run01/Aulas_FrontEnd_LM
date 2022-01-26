@@ -9,19 +9,22 @@ header {
     background-image: linear-gradient(0deg, #077A37, #23C265, #2CF580, #76F7AC);
     color: white;
     text-align: center;
-    padding-top: 0px;
- 
+    padding: 5px;
+    font-weight: bolder;   
 }
 
 header > h1 {
     text-align: center;
-    color: white;
-    tex
-    
+    color: rgb(231, 231, 231);
+    font-weight: bolder; 
 }
 
 header > p {
     margin: 0px;
+}
+
+header > p {
+    padding: 2px;
 }
 
 nav {
@@ -35,4 +38,10 @@ nav > a {
     text-decoration: none;
     padding-left: 10px;
     padding-top: 10px;
+}
+
+main {
+    margin: 0px 100px;
+    width: 500px;
+    background-color: white;
 }
