@@ -1,15 +1,23 @@
 @charset "UTF-8";
 
+body {
+    margin: 0px;
+    background-color: #76F7AC;
+}
+
 header {
-    background-color: rgba(1, 63, 9, 0.959);
+    background-image: linear-gradient(0deg, #077A37, #23C265, #2CF580, #76F7AC);
     color: white;
-    
+    text-align: center;
+    padding-top: 0px;
+ 
 }
 
 header > h1 {
     text-align: center;
     color: white;
-    padding: 5px 0px;
+    tex
+    
 }
 
 header > p {
@@ -17,12 +25,14 @@ header > p {
 }
 
 nav {
-    background-color: rgba(1, 63, 9, 0.959);
+    background-color: #077A37;
+    margin: 0px;
+    padding: 10px 0px;
 }
 
 nav > a {
     color: white;
     text-decoration: none;
-    margin: 5px;
-    padding: 5px 0px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
