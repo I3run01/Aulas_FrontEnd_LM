@@ -1,9 +1,28 @@
 @charset "UTF-8";
 
+header {
+    background-color: rgba(1, 63, 9, 0.959);
+    color: white;
+    
+}
+
 header > h1 {
-    text-align: center; 
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+}
+
+header > p {
+    margin: 0px;
 }
 
 nav {
-    
+    background-color: rgba(1, 63, 9, 0.959);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 0px;
 }
