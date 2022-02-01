@@ -59,7 +59,8 @@ nav > a:hover {
 main {
     background-color: white;
     text-align: justify;
-    margin: 0px 100px;
+    max-width: 900px;
+    margin: auto;
 }
 
 main > h1 {
@@ -67,7 +68,7 @@ main > h1 {
     text-align: center;
     color: #145E14;
     font-size: 1.8em;
-    font-family: 'android';
+    font-family: 'android', cursive;
     text-align: left;
     margin: 0px 20px;
 }
@@ -77,7 +78,7 @@ h2 {
     color: #145E14;
     margin: 0px 20px;
     font-size: 1.5em;
-    font-family: 'android';
+    font-family: 'android', cursive;
 }
 
 p {
