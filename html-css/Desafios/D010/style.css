@@ -10,7 +10,7 @@ body {
     margin: 0px;
     padding: 0px;
 
-    background-color: #76f7aca1;
+    background-color: #b4f77698;
 }
 
 header {
@@ -48,17 +48,18 @@ nav {
 nav > a {
     color: white;
     text-decoration: none;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding: 10px 20px 10px 20px;
 }
 
 nav > a:hover {
     text-decoration: underline;
+    background-color: rgb(124, 158, 3);
 }
 
 main {
     background-color: white;
-    margin: 0px 50px;
+    text-align: justify;
+    margin: 0px 100px;
 }
 
 main > h1 {
