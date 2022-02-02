@@ -30,35 +30,23 @@ main {
     margin: auto;
 }
 
-main p { 
+main > p { 
     margin: 0px;
+    padding: 50px 20px 50px 20px;
 }
-
-article {
-    margin: 50px 10px 50px 10px;
-}
-
-article p {
-    margin: 0px;
-}
-
-
 
 #img {
     margin: 0px;
-    background-color: red;
-    /*
+
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
     width: 100%;
-    min-height: 400px;
-    */
+    min-height: 300px;
 }
 
-aside {
-    background-color: burlywood;
-    height: 300px;
-    margin: 100px;
+section {
+    color: white;
+    padding: 50px;
 }
