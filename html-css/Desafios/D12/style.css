@@ -45,12 +45,11 @@ main > p {
     min-height: 300px;
 }
 
-#img h1{
-    margin: 0px;
-}
 div {
     color: white;
-    padding: 50px;
     background-color: brown;
     margin: 20px;
+    position: absolute;
+    padding: 20px;
+
 }
