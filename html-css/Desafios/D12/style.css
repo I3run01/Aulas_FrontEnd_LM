@@ -37,7 +37,6 @@ main > p {
 
 #img {
     margin: 0px;
-
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +45,12 @@ main > p {
     min-height: 300px;
 }
 
-section {
+#img h1{
+    margin: 0px;
+}
+div {
     color: white;
     padding: 50px;
+    background-color: brown;
+    margin: 20px;
 }
