@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 header {
-    max-width: 500px;
+    max-width: 300px;
     background-color: black;
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ body {
 }
 
 main {
-    max-width: 500px;
+    max-width: 300px;
     margin: auto;
 }
 
@@ -40,15 +40,15 @@ main > p {
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right center;
+    background-position: right ;
     width: 100%;
     min-height: 300px;
 }
 
 div {
     color: white;
-    background-color: brown;
-    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.212);
+    margin: 5px;
     position: absolute;
     padding: 20px;
 
