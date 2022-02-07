@@ -4,9 +4,11 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*criando minhas biblioteca de cores*/
 :root {
     --CorFundo: rgba(102, 255, 0, 0.315);
-    --CorTexto: yellow;
+    --CorTexto: rgb(255, 0, 221);
 }
 
 
@@ -27,6 +29,7 @@ main {
 
 p {
     text-align: justify;
+    color: var(--CorTexto);
 }
 
 /*Cor de texto*/
