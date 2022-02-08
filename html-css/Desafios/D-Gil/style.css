@@ -99,7 +99,7 @@ header > div:hover {
 .video {
     position: relative;
     overflow-y: hidden;
-    padding-top: 5px;
+    padding-top: 1%;
     margin: 5px;
     display: inline-block;
 }
