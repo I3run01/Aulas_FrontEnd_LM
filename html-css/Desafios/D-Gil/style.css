@@ -95,18 +95,13 @@ header > div:hover {
     margin: 0px;
 }
 
-#secvideo {
-    margin: 0px;
-    max-width: 400px;
-    float: left;
-    position: absolute;
-}
 
 .video {
     position: relative;
     overflow-y: hidden;
-    padding-top: 56.25%;
-    margin: 25px;
+    padding-top: 5px;
+    margin: 5px;
+    display: inline-block;
 }
 
 .iframe {
@@ -119,6 +114,8 @@ header > div:hover {
 }
 
 #txtlado {
-    max-width: 300px;
+    width: 400px;
+    display: inline-block;
+    margin: 0px;
 }
 
