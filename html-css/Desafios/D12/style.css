@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+ 
+
+
+
 header {
     max-width: 300px;
     background-color: black;
@@ -14,11 +23,18 @@ header h1 {
     padding-top: 10%;
     padding-bottom: 0%;
     margin: 0px;
+    font-family: 'passion';
 }
 
 header p {
     margin: 0%;
     padding: 0px;
+    font-family: 'passion';
+    font-size: 0.7em;
+}
+
+span {
+    font-weight: bolder;
 }
 
 body {
@@ -28,11 +44,16 @@ body {
 main {
     max-width: 300px;
     margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.527);
 }
 
-main > p { 
+main p { 
     margin: 0px;
     padding: 50px 20px 50px 20px;
+    font-family: 'Sriracha';
+
 }
 
 #img {
@@ -42,7 +63,8 @@ main > p {
     background-size: cover;
     background-position: right ;
     width: 100%;
-    min-height: 300px;
+    min-height: 400px;
+
 }
 
 div {
