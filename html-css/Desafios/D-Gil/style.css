@@ -211,15 +211,16 @@ header > div:hover {
     padding-top: 60px;
 }
 
-#footer {
-    margin-top: 200px;
-    color: white;
+footer {
     background-color: black;
+    color: white;
 }
 
-#footer > div {
-    display: inline-block;
-    width: 300px;
-    padding: 5%;
-    text-align: center;
+footer > div {
+    display:block;
+    position: relative;
+    width: 200px;
+    text-align: justify;
+    float: left;
+    
 }
