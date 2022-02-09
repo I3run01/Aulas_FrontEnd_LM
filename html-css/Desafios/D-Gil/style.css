@@ -211,6 +211,7 @@ header > div:hover {
     padding-top: 60px;
 }
 
+
 footer {
     background-color: pink;
     min-height: 200px;
@@ -221,6 +222,3 @@ footer > figure {
     text-align: justify;
     float: left;
 }   
-
-
-
