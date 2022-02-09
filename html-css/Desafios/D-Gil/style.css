@@ -211,14 +211,19 @@ header > div:hover {
     padding-top: 60px;
 }
 
-
-footer {
-    background-color: pink;
-    min-height: 200px;
+#rodape {
+    background-color: green;
+    width: 900px;
+    margin: auto;
 }
 
-footer > figure {
-    width: 400px;
-    text-align: justify;
-    float: left;
-}   
+footer {
+    background-color: black;
+}
+
+.credito {
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+}
