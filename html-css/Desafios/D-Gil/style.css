@@ -4,6 +4,17 @@ body {
     margin: 0px;
 }
 
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+}
 nav {
     height: 25px;
     background-color: black;
@@ -17,6 +28,7 @@ nav > a {
     margin: 0px;
     font-size: 1.2em;
     padding: 25px;
+    transition: all 0.5s;
 }
 
 nav img {
@@ -83,15 +95,15 @@ header > div:hover {
     background-color: black;
 }
 
-#secum {
+#projeto {
     background-color:#F0E9E9 ;
 }
 
-#secum > h1 {
+#projeto > h1 {
     margin: 0px;
 }
 
-#secum > h2 { 
+#projeto > h2 { 
     margin: 0px;
 }
 
@@ -99,7 +111,7 @@ header > div:hover {
 .video {
     position: relative;
     overflow-y: hidden;
-    padding-top: 1%;
+    padding: 1%;
     margin: 5px;
     display: inline-block;
 }
@@ -117,5 +129,97 @@ header > div:hover {
     width: 400px;
     display: inline-block;
     margin: 0px;
+    text-align: center;
 }
 
+#txtlado > h2 {
+    margin: 0px;
+    padding-left: 20%;
+}
+
+#selecao {
+    text-align: center;
+}
+
+.nave {
+    display: inline-block;
+    width: 200px;
+    padding: 5%;
+    text-align: center;
+}
+
+.nave img {
+    width: 40%;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.nave img:hover {
+    background-color: black;
+}
+
+#ecopontos {
+    text-align: center;
+    min-height: 400px;
+    background-image: url(imagens/space-fundos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#ecopontos img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#ecopontos img:hover {
+    transform: scale(105%);
+}
+
+#ecopontos p {
+    font-size: 1.5em;
+}
+
+.ecopontos {
+    max-width: 300px;
+    display: inline-block;
+    padding: 5%;
+
+}
+
+#sobremim > div{
+    margin: 50px;
+    max-width: 500px;
+    text-align: center;
+    float: left;
+}
+
+#sobremim img{
+    width: 40%;
+    transition: all 0.5s;
+}
+
+#sobremim img:hover {
+    transform: scale(105%);
+    
+}
+
+#sobremim>figure>p{
+    text-align: center;
+    margin: 20px;
+    padding-top: 60px;
+}
+
+#footer {
+    margin-top: 200px;
+    color: white;
+    background-color: black;
+}
+
+#footer > div {
+    display: inline-block;
+    width: 300px;
+    padding: 5%;
+    text-align: center;
+}
