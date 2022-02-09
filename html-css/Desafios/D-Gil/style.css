@@ -42,7 +42,6 @@ nav>a:hover {
     background-color: rgba(128, 128, 128, 0.432) ;
 }
 
-
 header {
     height: 1000px;
     background-image: url(imagens/Night-Space-Cartoon-Rocket-Star-Universe-Moon-3262811.jpg);
@@ -95,14 +94,9 @@ header > div > a {
 header > div:hover {
     background-color: black;
 }
-main {
-    background-color:#F0E9E9 ;
-    margin: 0px;
-}
 
 #projeto {
-    margin: auto;
-    max-width: 1200px;
+    background-color:#F0E9E9 ;
 }
 
 #projeto > h1 {
@@ -194,20 +188,15 @@ main {
 
 }
 
-#sobremim {
-    max-width: 1200px;
-    margin: auto;
-}
-
 #sobremim > div{
-    margin: auto;
+    margin: 50px;
     max-width: 500px;
     text-align: center;
-
+    float: left;
 }
 
 #sobremim img{
-    width: 80%;
+    width: 40%;
     transition: all 0.5s;
 }
 
@@ -224,18 +213,12 @@ main {
 
 
 footer {
-    top: 200px;
-    color: white;
-    background-color: black;
+    background-color: pink;
+    min-height: 200px;
 }
 
-#rodape {
-    margin: auto;
-}
-.credito {
-    text-align: center;
-    max-width: 500px;
-    margin: auto;
-
-}
-
+footer > figure {
+    width: 400px;
+    text-align: justify;
+    float: left;
+}   
