@@ -212,8 +212,7 @@ header > div:hover {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 footer > div {
@@ -222,5 +221,6 @@ footer > div {
     width: 200px;
     text-align: justify;
     float: left;
+    top: 300px;
     
 }
