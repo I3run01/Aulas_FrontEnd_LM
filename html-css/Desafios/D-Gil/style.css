@@ -212,15 +212,15 @@ header > div:hover {
 }
 
 footer {
-    color: rgb(0, 0, 0);
+    background-color: pink;
+    min-height: 200px;
 }
 
-footer > div {
-    display:block;
-    position: relative;
-    width: 200px;
+footer > figure {
+    width: 400px;
     text-align: justify;
     float: left;
-    top: 300px;
-    
-}
+}   
+
+
+
