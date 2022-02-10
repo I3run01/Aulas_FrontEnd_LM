@@ -15,32 +15,87 @@ h3 {
 p {
     font-size: 1.2em;
 }
-nav {
-    height: 25px;
-    background-color: black;
-    padding: 25px;
-    text-align: right;
+
+@media(max-width: 800px){
+    #navmobile > a {
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        font-size: 1.2em;
+        padding: 25px;
+        transition: all 0.5s;
+    }
+    #navmobile > a > img {
+        width: 50px;
+    }
+    #navpai {
+        height: 25px;
+        background-color: black;
+        padding: 25px;
+        text-align: right;
+
+    }
+    
+    #navfilha > a {
+        display: none;
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        font-size: 1.2em;
+        padding: 25px;
+        transition: all 0.5s;
+    }
+    
+    #navpai>img {
+        left: 20px;
+        top: 10px;
+        position: absolute;
+        height: 5%;
+    }
+    
+    #navfilha>a:hover {
+        background-color: rgba(128, 128, 128, 0.432) ;
+    }
+
 }
 
-nav > a {
-    color: white;
-    text-decoration: none;
-    margin: 0px;
-    font-size: 1.2em;
-    padding: 25px;
-    transition: all 0.5s;
+@media(min-width: 800px){
+    #navmobile > a {
+        display: none;
+    }
+    
+    #navpai {
+        height: 25px;
+        background-color: black;
+        padding: 25px;
+        text-align: right;
+
+    }
+    
+    #navfilha > a {
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        font-size: 1.2em;
+        padding: 25px;
+        transition: all 0.5s;
+    }
+    
+    #navpai>img {
+        left: 20px;
+        top: 10px;
+        position: absolute;
+        height: 5%;
+    }
+    
+    #navfilha>a:hover {
+        background-color: rgba(128, 128, 128, 0.432) ;
+    }
+
 }
 
-nav img {
-    left: 20px;
-    top: 10px;
-    position: absolute;
-    height: 5%;
-}
 
-nav>a:hover {
-    background-color: rgba(128, 128, 128, 0.432) ;
-}
+
 
 header {
     height: 1000px;
