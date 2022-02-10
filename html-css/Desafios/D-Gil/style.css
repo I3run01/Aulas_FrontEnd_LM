@@ -16,18 +16,7 @@ p {
     font-size: 1.2em;
 }
 
-@media(max-width: 800px){
-    #navmobile > a {
-        color: white;
-        text-decoration: none;
-        margin: 0px;
-        font-size: 1.2em;
-        padding: 25px;
-        transition: all 0.5s;
-    }
-    #navmobile > a > img {
-        width: 50px;
-    }
+@media(max-width: 800px){ 
     #navpai {
         height: 25px;
         background-color: black;
@@ -35,15 +24,61 @@ p {
         text-align: right;
 
     }
-    
-    #navfilha > a {
-        display: none;
+
+    #navmobile {
+        margin-top: 0%;
+        margin-bottom: 100px;
+    }
+
+    #navmobile > a {
+        padding: 15px;
         color: white;
         text-decoration: none;
         margin: 0px;
         font-size: 1.2em;
+        transition: all 0.5s;
+    }
+    #navmobile > a > img {
+        width: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #navmobile>a>img:hover {
+        transform: scale(90%);
+    }
+
+    #navfilha {
+        display: none;
+    }
+
+    #navfilhamobile {
+        display: none;
+    }
+
+    #navmobile:hover>#navfilhamobile{
+        display: block;
+    }
+
+    
+    #navfilhamobile {
+        background-color: rgba(0, 0, 0, 0.411);
+        top: 70px;
+        right: 0px;
+        position: fixed;      
+        
+    }
+
+    #navfilhamobile>ul>li>a {
+        color: white;
+        line-height: 4em;
+        text-decoration: none;
+        text-align: center;
+        margin: 0px;
+        font-size: 1.2em;
         padding: 25px;
         transition: all 0.5s;
+
     }
     
     #navpai>img {
@@ -53,14 +88,18 @@ p {
         height: 5%;
     }
     
-    #navfilha>a:hover {
-        background-color: rgba(128, 128, 128, 0.432) ;
+    #navfilhamobile>ul>li>a:hover {
+        background-color: rgba(128, 128, 128, 0.432);
     }
 
 }
 
 @media(min-width: 800px){
-    #navmobile > a {
+    #navmobile {
+        display: none;
+    }
+
+    #navfilhamobile {
         display: none;
     }
     
