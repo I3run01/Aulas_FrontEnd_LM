@@ -22,6 +22,9 @@ p {
         background-color: black;
         padding: 25px;
         text-align: right;
+        position: fixed;
+        right: 0px;
+        left: 0px;
 
     }
 
@@ -94,7 +97,7 @@ p {
         left: 20px;
         top: 10px;
         position: absolute;
-        height: 5%;
+        height: 50%;
     }
     
     #navfilhamobile>ul>li>a:hover {
@@ -117,6 +120,11 @@ p {
         background-color: black;
         padding: 25px;
         text-align: right;
+        position: fixed;
+        right: 0px;
+        left: 0px;
+    
+        
 
     }
     
@@ -133,7 +141,7 @@ p {
         left: 20px;
         top: 10px;
         position: absolute;
-        height: 5%;
+        height: 50%;
     }
     
     #navfilha>a:hover {
