@@ -151,7 +151,9 @@ p {
 }
 
 
-
+main {
+    padding-top: 70px;
+}
 
 header {
     height: 1000px;
