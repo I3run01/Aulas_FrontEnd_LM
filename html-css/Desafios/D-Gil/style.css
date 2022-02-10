@@ -25,6 +25,7 @@ p {
         position: fixed;
         right: 0px;
         left: 0px;
+        z-index: +10;
 
     }
 
@@ -123,7 +124,7 @@ p {
         position: fixed;
         right: 0px;
         left: 0px;
-    
+        z-index: +10;
         
 
     }
@@ -284,6 +285,8 @@ header > div:hover {
         padding: 0%;
         margin: 10px;
         display: inline-block;
+        
+
     }
     
     .iframe {
@@ -395,10 +398,14 @@ header > div:hover {
     #sobremim img{
         width: 50%;
         transition: all 0.5s;
+        
     }
 
     #sobremim img:hover {
+        overflow: hidden;
         transform: scale(105%);
+        
+        
         
     }
 
