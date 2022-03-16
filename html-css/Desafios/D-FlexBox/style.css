@@ -1,0 +1,27 @@
+@charset "UTF-08";
+
+body {
+    margin: 0px;
+}
+nav {
+    height: 60px;
+    background-color:  #0BF96A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+
+}
+
+Nav a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+
+}
+
+#NavOpcoes >a:hover {
+    background-color: #008134;
+
+
+}
