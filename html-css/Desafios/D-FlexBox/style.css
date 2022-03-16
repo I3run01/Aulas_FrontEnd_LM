@@ -4,6 +4,10 @@ body {
     margin: 0px;
 }
 
+p {
+    font-size: 1.2em;
+}
+
 h1 {
     padding-top: 20px;
     font-size: 2.5em;
@@ -30,12 +34,13 @@ h2 {
 }
 
 nav {
-    height: 60px;
+    height: 80px;
     background-color:  #0BF96A;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.2em;
+    flex-wrap: wrap;
 
 }
 
@@ -51,11 +56,22 @@ Nav a {
     color: black;
 }
 
+main {
+    margin: auto;
+    max-width: 900px;
+}
+
 #container {
+    margin: auto;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 article {
     margin: 50px 10px 10px 10px;
+    max-width: 500px;
+    align-self: center;
+    
 
 }
