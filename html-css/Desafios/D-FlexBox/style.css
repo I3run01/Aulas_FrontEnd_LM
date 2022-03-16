@@ -3,6 +3,32 @@
 body {
     margin: 0px;
 }
+
+h1 {
+    padding-top: 20px;
+    font-size: 2.5em;
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2 {
+    padding-top: 40px;
+    font-size: 2.8em;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+
+    margin-top: 60px;
+    border-top: #E10BF9;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
 nav {
     height: 60px;
     background-color:  #0BF96A;
@@ -21,7 +47,15 @@ Nav a {
 }
 
 #NavOpcoes >a:hover {
-    background-color: #008134;
+    background-color: #008134a8;
+    color: black;
+}
 
+#container {
+    display: flex;
+}
+
+article {
+    margin: 50px 10px 10px 10px;
 
 }
