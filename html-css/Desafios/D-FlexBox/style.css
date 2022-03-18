@@ -1,4 +1,5 @@
 @charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 body {
     margin: 0px;
@@ -18,20 +19,23 @@ h1 {
     
 }
 
+hr {
+    margin-top: 70px;
+    width: 100px;
+    border-color: #F3A0FD;
+}
+
 h2 {
-    padding-top: 40px;
+    padding-top: 5px;
     font-size: 2.8em;
     text-align: center;
     margin: auto;
     max-width: 400px;
     font-family:Helvetica, Arial, sans-serif;
     font-weight: lighter;
-
-    margin-top: 60px;
-    border-top: #E10BF9;
-    border-top-style: solid;
-    border-top-width: 2px;
 }
+
+
 
 nav {
     height: 80px;
@@ -71,6 +75,10 @@ article {
     
 
 }
+#section01 {
+    margin-top: 0px;
+}
+
 
 @media(max-width: 600px){
     #container {
@@ -174,4 +182,112 @@ article {
 #container3>.f2 > ul > li::before {
     content: '•   ';
     color: #E10BF9;
+}
+
+#container3>.f2 a {
+    border-color: #E10BF9;
+}
+
+
+#container4 {
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#container4 > div {
+    width: 250px;
+}
+
+#container4 h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8em;
+}
+
+#container4 h3::before {
+    content: '■';
+    font-size: 1.5em;
+}
+
+.f14 h3::before {
+    color: #0BF96A;
+
+}
+
+.f24 h3::before {
+    color: #E10BF9;
+}
+
+.f34 h3::before {
+    color: #049A40;
+}
+
+#section5 {
+    background-color: #0BF96A;
+}
+
+#container5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#container5 div {
+    width: 450px;
+   
+}
+
+#container5 > #div2 {
+    background-color: #E10BF9;
+    padding: 15px;
+}
+
+#container5 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin: 2px;
+}
+
+#container5 input {
+    font-size: 1.8em;
+    height: 50px;
+    width: 280px;
+}
+
+#container5 a {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+    margin: 15px 0px 0px 30px; 
+}
+
+#container5 a:hover {
+    color: #0BF96A;
+}
+
+
+#section6 {
+    margin-top: 0px;
+    background-color: #F3A0FD;
+    
+}
+
+#container06 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#section6 div {
+    width: 450px;
+    text-align: justify;
+}
+
+#section6 p {
+    margin-top: 0px;
 }
