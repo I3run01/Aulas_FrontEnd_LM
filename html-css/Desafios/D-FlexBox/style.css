@@ -120,6 +120,7 @@ article {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    flex-wrap: wrap;
     
 }
 
@@ -233,6 +234,7 @@ article {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 #container5 div {
@@ -272,7 +274,7 @@ article {
 #section6 {
     margin-top: 0px;
     background-color: #F3A0FD;
-    
+    flex-wrap: wrap;
 }
 
 #container06 {
