@@ -1,7 +1,3 @@
-Finalizar módulo - FlexBox - CSS
-	realizar desafio Flex-Box
-	postar nas redes sociais desafio Flex-box
-	Iniciar desafio Grid CSS
 Finalizar módulo GRID - CSS
 	realizar desafio Grid - CSS
 	postar nas redes sociais desafio Grid-CSS
@@ -21,4 +17,6 @@ Criar página Web - Original
 Fazer um projeto Social ou para alguém
 	Opções - Mude a Curva
 		- Duny s Barber
- 
+
+Estudar Mundo 4 HTML - CSS
+	obs -> Se ainda não tiver disponivel -> Ver conceitos de Mobile First e Formulários.
