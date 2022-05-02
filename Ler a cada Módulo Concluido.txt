@@ -1,17 +1,19 @@
-Fazer o desafio dos teclados
-	https://www.youtube.com/watch?v=8iaW8mMJoJU
+CONCLUIDOS:
 
+----Fazer o desafio dos teclados-----
+     ----https://www.youtube.com/watch?v=8iaW8mMJoJU----
+
+FALTA CONCLUIR:
 
 Estudar módulo Adobe XD
 	-realizar e postar desafio Adobe XD
 
-Criar página Web - Original
-	Opções  - Portifólio
-
-
 Fazer um projeto Social ou para alguém
 	Opções - Mude a Curva
 		- Duny s Barber
+
+Criar página Web - Original
+	Opções  - Portifólio
 
 Estudar Mundo 4 HTML - CSS
 	obs -> Se ainda não tiver disponivel -> Ver conceitos de Mobile First e Formulários.
