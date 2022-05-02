@@ -8,12 +8,3 @@ FALTA CONCLUIR:
 Estudar módulo Adobe XD
 	-realizar e postar desafio Adobe XD
 
-Fazer um projeto Social ou para alguém
-	Opções - Mude a Curva
-		- Duny s Barber
-
-Criar página Web - Original
-	Opções  - Portifólio
-
-Estudar Mundo 4 HTML - CSS
-	obs -> Se ainda não tiver disponivel -> Ver conceitos de Mobile First e Formulários.
